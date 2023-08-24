@@ -11,7 +11,7 @@ const Options = ({styles}) => {
           <li key={item.lable} className={styles}>
             <a
               href={item.href}
-              className='font-montserrat leading-normal text-lg text-slate-gray'
+              className='font-montserrat leading-normal text-lg'
             >
               {item.label}
             </a>
@@ -62,9 +62,9 @@ const Nav = () => {
           }
           {
             menu && (
-              <div className='flex flex-col  absolute top-8 right-0 bg-slate-600'>
+              <div className='flex flex-col  absolute top-8 right-0 bg-gray-800 animate-fade-left animate-once animate-ease-in-out w-40'>
                 <ul className='list-none'>
-                  <Options styles="w-[120px] text-center py-2 hover:bg-slate-500 text-white"/>
+                  <Options styles="w-full text-center py-4 hover:bg-slate-700 text-white"/>
                 </ul>
               </div>
             )

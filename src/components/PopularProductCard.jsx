@@ -6,7 +6,7 @@ const PopularProductCard = ({ imgURL, name, price }) => {
       <img
         src={imgURL}
         alt={name}
-        className="w-[280px] h-[280px]"
+        className="w-[280px] h-[280px] hover:scale-[1.05] duration-300"
       />
       <div className="mt-8 flex justify-start gap-2.5">
         <img src={star} alt="rating" width={24} height={24} />
