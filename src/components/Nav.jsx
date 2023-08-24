@@ -62,7 +62,7 @@ const Nav = () => {
           }
           {
             menu && (
-              <div className='flex flex-col  absolute top-8 right-0 bg-gray-800 animate-fade-left animate-once animate-ease-in-out w-40'>
+              <div className='flex flex-col  absolute z-20 top-8 right-0 bg-gray-800 animate-fade-left animate-once animate-ease-in-out w-40'>
                 <ul className='list-none'>
                   <Options styles="w-full text-center py-4 hover:bg-slate-700 text-white"/>
                 </ul>
